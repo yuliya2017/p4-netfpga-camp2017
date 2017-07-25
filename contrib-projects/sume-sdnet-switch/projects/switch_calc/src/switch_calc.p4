@@ -160,12 +160,16 @@ control TopPipe(inout Parsed_packet p,
         // based on the opCode, set the result or state appropriately
         if (p.calc.opCode == ADD_OP) {
             // TODO: addition
+		p.calc.result=p.calc.op1 + p.calc.op2;
 
         } else if (p.calc.opCode == SUB_OP) {
             // TODO: subtraction
+		   p.calc.result=p.calc.op1 - p.calc.op2;
 
         } else if (p.calc.opCode == LOOKUP_OP) {
             // TODO: Key-Value lookup
+		lookup_table.apply();
+		
 
         } else if (p.calc.opCode == ADD_REG_OP || p.calc.opCode == SET_REG_OP) {
             // Read or write register

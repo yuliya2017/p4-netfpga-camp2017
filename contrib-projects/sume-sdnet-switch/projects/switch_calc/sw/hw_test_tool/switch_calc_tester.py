@@ -38,7 +38,7 @@ from switch_calc_headers import *
 from nf_sim_tools import *
 
 PKT_SIZE = 64
-IFACE = "eth1"
+IFACE = "eth2"
 
 ETH_SRC = "08:11:11:11:11:08"
 ETH_DST = "08:22:22:22:22:08"

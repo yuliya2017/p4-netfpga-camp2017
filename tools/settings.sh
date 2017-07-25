@@ -28,9 +28,9 @@
 # @NETFPGA_LICENSE_HEADER_END@
 #
 
-export P4_PROJECT_NAME=switch_calc 
+export P4_PROJECT_NAME=switch_calc
 export NF_PROJECT_NAME=simple_sume_switch
-export SUME_FOLDER=${HOME}/projects/P4-NetFPGA
+export SUME_FOLDER=${HOME}/P4-NetFPGA-camp
 export SUME_SDNET=${SUME_FOLDER}/contrib-projects/sume-sdnet-switch
 export P4_PROJECT_DIR=${SUME_SDNET}/projects/${P4_PROJECT_NAME}
 export LD_LIBRARY_PATH=${SUME_SDNET}/sw/sume:${LD_LIBRARY_PATH}
