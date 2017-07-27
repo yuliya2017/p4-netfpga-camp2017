@@ -28,7 +28,7 @@
 # @NETFPGA_LICENSE_HEADER_END@
 #
 
-export P4_PROJECT_NAME=switch_calc
+export P4_PROJECT_NAME=diverter_switch
 export NF_PROJECT_NAME=simple_sume_switch
 export SUME_FOLDER=${HOME}/P4-NetFPGA-camp
 export SUME_SDNET=${SUME_FOLDER}/contrib-projects/sume-sdnet-switch
