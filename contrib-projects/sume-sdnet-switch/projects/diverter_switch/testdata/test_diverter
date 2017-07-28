@@ -1,0 +1,5 @@
+for count in {1..100}
+do
+    tcpreplay -i eth1 ./nf0_applied.pcap
+done
+
